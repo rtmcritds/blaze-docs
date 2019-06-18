@@ -1,0 +1,5 @@
+_static/
+_build/
+_templates/
+make.bat
+Makefile
