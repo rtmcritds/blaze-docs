@@ -22,13 +22,16 @@ Core Features
 - OAuth (client_credentials) authentication flow
 - Coverage of the following FHIR Resources:
 
-  - Observation
+  - Observation (e.g. Laboratory Results)
 
+Guide
+=============
 
 .. toctree::
    :maxdepth: 2
 
    introduction
+   getting_started
 
 
 Indices and tables
