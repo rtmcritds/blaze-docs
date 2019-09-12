@@ -32,6 +32,7 @@ Guide
 
    introduction
    getting_started
+   core_resources
 
 
 Indices and tables

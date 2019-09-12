@@ -2,6 +2,11 @@
 Getting Started
 ============================================
 
+API Reference
+=============
+The MSK Blaze API is organized around REST. Each FHIR resource type currently supports `read <http://build.fhir.org/http.html#read>`_ and basic `search <http://build.fhir.org/http.html#search>`_ capabilities.
+
+
 Authentication
 ==============
 
@@ -19,11 +24,25 @@ Generating Tokens
 
 To generate access tokens, partners need to make a POST request to the appropriate endpoint using their ``client_id`` and ``client_secret``:
 
+Base URL (Test)
+--------
+
+.. code-block:: ReST
+
+    https://webapit.mskcc.org/
+
+Base URL (Production)
+--------
+
+.. code-block:: ReST
+
+    Coming Soon...
+
 **Request**
 
 .. code-block:: ReST
 
-    POST https://webapit.mskcc.org:8443/auth/oauth/v2/token
+    POST /auth/oauth/v2/token
     Content-Type: application/x-www-form-urlencoded
     client_id=YYYY
     client_secret=XXXX
@@ -52,7 +71,7 @@ retrieving observations for a research study:
 
 .. code-block:: ReST
 
-    GET https://webapit.mskcc.org:8443/api360/v1/clinical/observations?researchstudy=TEST&category=laboratory&_count=5
+    GET /api360/v2/clinical/observations?researchstudy=TEST&category=laboratory&_count=5
     -H Authorization: Bearer {access_token}
 
 
