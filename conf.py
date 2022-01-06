@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'MSK Blaze'
-copyright = '2019, Matthew Koch'
-author = 'Matthew Koch'
+copyright = '2019, MSK/CRIT'
+author = 'MSK - Clinical Research Technology & Informatics'
 
 # The short X.Y version
 version = ''
