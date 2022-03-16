@@ -30,7 +30,6 @@ Guide
 .. toctree::
    :maxdepth: 2
 
-   index
    introduction
    getting_started
    core_resources
